@@ -15,13 +15,13 @@
 ## Recursos
 
 
-- **Node Js** — Plataforma de aplicação para construção da api
-- **Express** — Framework NodeJS
-- **UUID** - recurso para gerar ID's unicos
--**Nodemon** - Recurso que permite o node ficar monitorando alterações no código e reiniciar o servidor a casa samvamento de arquivo
--**Sucrase** - recurso que permite utilizar a nova sintaxe import/export no node
--**ESLint/Prettier** - Recurso que padroniza o código de acordo com o modelo usado pelo AirBnB
-
+- **Node Js** — Plataforma de aplicação para construção da api  
+- **Express** — Framework NodeJS  
+- **UUID** - recurso para gerar ID's unicos  
+-**Nodemon** - Recurso que permite o node ficar monitorando alterações no código e reiniciar o servidor a casa samvamento de arquivo  
+-**Sucrase** - recurso que permite utilizar a nova sintaxe import/export no node  
+-**ESLint/Prettier** - Recurso que padroniza o código de acordo com o modelo usado pelo AirBnB  
+  
 ## Iniciando
 
 1. Clone este  reposítório usando `git clone https://github.com/maykonsousa/gostack11-desafio01.git`
