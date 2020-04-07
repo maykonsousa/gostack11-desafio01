@@ -1,6 +1,7 @@
-import express from 'express';
-import cors from 'cors';
-import { uuid, isUuid } from 'uuidv4';
+const express = require('express');
+const cors = require('cors');
+
+const { uuid, isUuid } = require('uuidv4');
 
 const app = express();
 
@@ -93,8 +94,9 @@ app.post('/repositories/:id/like', (request, response) => {
     return response.status(400).json({ error: 'Repository not found.' });
   }
 
-  repositories[repositoryIndex].likes++;
+  repositories[repositoryIndex].likes += 1;
 
   return response.json(repositories[repositoryIndex]);
 });
-export default app;
+
+module.exports = app;
